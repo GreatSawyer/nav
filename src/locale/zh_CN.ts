@@ -5,7 +5,6 @@ import { isSelfDevelop } from 'src/utils/util'
 
 const zhCN: Record<string, any> = {
   _loading: '加载中...',
-  _webTitle: '发现导航',
   _uncategorized: '未分类',
   _modifySuccess: '修改成功！',
   _copySuccess: '复制成功',
@@ -278,6 +277,8 @@ const zhCN: Record<string, any> = {
   _dayIs: '今天是',
   _rest: '休',
   _distance: '距离',
+  _collectTip: '有用户申请收录请去处理',
+  _colTitle: '收录处理（{count}）',
 }
 
 export default zhCN

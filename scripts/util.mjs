@@ -238,7 +238,7 @@ export function writeTemplate({ html, settings, seoTemplate }) {
   <meta name="keywords" content="${settings.keywords}" id="xjh_2" />
   <link rel="icon" href="${settings.favicon}" />
   <link rel ="apple-touch-icon" href="${settings.favicon}" />
-  <link rel="prefetch" href="//unpkg.com/ng-zorro-antd@18.1.1/ng-zorro-antd.dark.min.css" />
+  <link rel="prefetch" href="//unpkg.com/ng-zorro-antd@19.1.0/ng-zorro-antd.dark.min.css" />
 `.trim()
   let t = html
   t = t.replace(
@@ -413,7 +413,7 @@ export async function spiderWeb(db, settings) {
   }
 
   const diff = Math.ceil((Date.now() - now) / 1000)
-  console.log(`Time: ${diff} seconds`)
+  console.log(`OK: Time: ${diff} seconds`)
 
   return {
     webs: db,

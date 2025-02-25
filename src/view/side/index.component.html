@@ -2,7 +2,7 @@
   <nz-spin
     nzSimple
     *ngIf="commonService.sliceMax === 0"
-    class="position-center"
+    class="position-center z-50 mt-24"
   />
   <nz-layout>
     <nz-sider
@@ -18,7 +18,11 @@
         }}</span>
       </div>
 
-      <ul nz-menu nzMode="inline" class="sider dark-scrollbar dark-bg">
+      <ul
+        nz-menu
+        nzMode="inline"
+        class="sider dark-scrollbar dark-bg select-none"
+      >
         <li
           nz-submenu
           *ngFor="

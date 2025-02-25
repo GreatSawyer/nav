@@ -5,7 +5,6 @@ import { isSelfDevelop } from 'src/utils/util'
 
 const english: Record<string, any> = {
   _loading: 'Loading...',
-  _webTitle: 'Discovery Navigation',
   _uncategorized: 'Unclassified',
   _modifySuccess: 'Modification succeeded!',
   _copySuccess: 'Copy succeeded!',
@@ -288,6 +287,8 @@ const english: Record<string, any> = {
   _dayIs: 'Today is',
   _rest: 'R',
   _distance: 'Distance',
+  _collectTip: 'If a user applies for inclusion, please handle it',
+  _colTitle: 'Collection processing ({count})',
 }
 
 export default english
